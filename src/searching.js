@@ -16,7 +16,7 @@ export default function Search(props) {
       <ul className="weatherDescription">
         <li>{city}</li>
         <li>{Math.round(temperature)}° F</li>
-        <li>{description}</li>
+        <li>{description} </li>
         <li>{humidity}%</li>
         <li>{windspeed} MPH</li>
         <li>
